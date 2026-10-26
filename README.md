@@ -2,12 +2,14 @@
 A 5-page Power BI report that shows how sales, profit and units sold change over time, which products and cities perform best, and how promotions affect discounts. It also lets you compare two date ranges side by side.
 Sales Overview
 
-##**What you can find out**
+What you can find out
 Which products sell the most and the least
 Which products make the most and the least profit
 Which cities bring in the most sales
 Which promotions give the biggest average discount
 How a period compares with another period
+
+
 Report pages
 #	Page	What it shows
 1	Sales Overview	Top 5 and bottom 5 products by sales, profit and quantity
@@ -15,6 +17,7 @@ Report pages
 3	Comparison Sales-Profit-Quantity	Two date filters and side-by-side bars for sales, profit and quantity
 4	Edit Interaction	Two date sliders, each controlling only its own set of visuals
 5	Table Visual	Order-level table with slicers for date, customer, product and promotion
+
 Screenshots
 Region-Wise Sales	Comparison
 Region	Comparison
@@ -29,6 +32,8 @@ Two date tables:
 Date_Table1 is the active relationship.
 Date_Table2 is inactive (dotted line) and is used only inside DAX with USERELATIONSHIP. This powers the date comparison.
 Measures Table: holds all DAX measures.
+
+
 Data preparation (Power Query)
 Removed null values
 Merged queries to combine data from different sources
