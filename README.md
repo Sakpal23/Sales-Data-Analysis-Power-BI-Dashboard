@@ -2,7 +2,7 @@
 
 A 5-page Power BI report that shows how sales, profit and units sold change over time, which products and cities perform best, and how promotions affect discounts. It also lets you compare two date ranges side by side.
 
-![Sales Overview] 
+
 <img width="1342" height="757" alt="S1" src="https://github.com/user-attachments/assets/2af33159-3821-45e9-984d-a729eec78c38" />
 
 ## What you can find out
@@ -25,17 +25,20 @@ A 5-page Power BI report that shows how sales, profit and units sold change over
 
 ### Screenshots
 
-| Region-Wise Sales | Comparison |
-|---|---|
-| ![Region](screenshots/02_region_wise_sales.png) | ![Comparison](screenshots/03_comparison.png) |
 
-| Edit Interaction | Table Visual |
-|---|---|
-| ![Edit Interaction](screenshots/04_edit_interaction.png) | ![Table](screenshots/05_table_visual.png) |
+
+<img width="1342" height="760" alt="S2" src="https://github.com/user-attachments/assets/0c4a3a3b-0635-4c48-94f5-aa191755d6a1" />
+<img width="1342" height="755" alt="S3" src="https://github.com/user-attachments/assets/29c0f49e-b21d-4d23-acbb-792954852961" />
+
+
+<img width="1345" height="752" alt="S4" src="https://github.com/user-attachments/assets/3964312b-5fcc-4178-b736-4e8cccdd6d5e" />
+<img width="1345" height="756" alt="S5" src="https://github.com/user-attachments/assets/5f1def3e-79ef-461f-9880-7053c27510dd" />
+
 
 ## Data model
 
-![Data model](screenshots/00_data_model.png)
+<img width="1550" height="807" alt="DM" src="https://github.com/user-attachments/assets/bad66f23-2e22-42f5-a4b8-3aca6ea31a90" />
+
 
 - **Star schema:** one `Fact_Table` linked to `Dim Customers`, `Dim Product` and `Dim Promotion` (one-to-many).
 - **Two date tables:**
