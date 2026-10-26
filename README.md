@@ -2,7 +2,8 @@
 
 A 5-page Power BI report that shows how sales, profit and units sold change over time, which products and cities perform best, and how promotions affect discounts. It also lets you compare two date ranges side by side.
 
-![Sales Overview] (<img width="1342" height="757" alt="S1" src="https://github.com/user-attachments/assets/2af33159-3821-45e9-984d-a729eec78c38" />)
+![Sales Overview] 
+<img width="1342" height="757" alt="S1" src="https://github.com/user-attachments/assets/2af33159-3821-45e9-984d-a729eec78c38" />
 
 ## What you can find out
 
